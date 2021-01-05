@@ -1,5 +1,5 @@
 # Kaggle 가이드
-`캐글 가이드`라는 책을 읽고 나름대로 정리해보았습니다.<br>
+`캐글 가이드`라는 책과 Kaggle의 공식 문서들을 읽고 나름대로 정리해보았습니다.<br>
 저처럼 이제 막 Kaggle을 접하는 분들에게 도움이 됐으면 합니다.<br>
 수정해야할 부분이 있으면 `Issues`에 남겨주시면 감사하겠습니다.<br>
 
@@ -196,11 +196,10 @@
 - 각 과정은 2~8개의 수업으로 구성되어 있고 다양한 실습 예제를 제공합니다.
 <br>
 
-## Kaggle `Contributor` 되기
 [Kaggle Progression System](https://www.kaggle.com/progression)을 참조해서 작성했습니다.<br>
-`Contributer`가 되는 법에 대해 설명하기 전에 `Kaggle 등급`과 `메달`에 대한 설명을 먼저 하겠습니다.<br>
+`Contributer`가 되는 법에 대해 설명하기 전에 `Kaggle 등급`과 `메달`에 대한 설명을 먼저 하겠습니다.
 
-### Kaggle 등급
+## Kaggle `등급`
 - Kaggle에는 Progression System이 있는데 쉽게 이야기해서 `Kaggler 등급`입니다.<br>
   이 등급은 데이터 사이언티스트로써 어느정도의 실력을 가졌는지 가늠할 수 있는 좋은 지표입니다.<br>
   또한 자신이 얼마나 성장했는지를 직관적으로 보여주기도 합니다. 
@@ -225,10 +224,70 @@
     ![image](https://user-images.githubusercontent.com/61633137/103615428-e9f35500-4f6d-11eb-839c-c1af9c1494ed.png)
   <br>
   
-- 또한 위 사진들에서 볼 수 있듯이 Kaggle 등급은 `Competitions`, `Datasets`, `Notebooks`, `Discussion` 각 서비스 별로 다르게 부여됩니다.
+- 또한 위 사진들에서 볼 수 있듯이 Kaggle 등급은 `Competitions`, `Datasets`, `Notebooks`, `Discussion` 각 분야 별로 다르게 부여됩니다.
 - 오른쪽 위 계정 아이콘을 누른 후 `My Profile`을 선택해서 프로필 페이지로 넘어갑니다.<br>
   그럼 본인의 프로필 정보와 Kaggle 활동 내용 및 등급을 확인할 수 있습니다.<br>
 <br>
 
-### 메달
-- `Contributer` 등급은 해당하는 조건을 만족하면 되지만 `Expert` 부터는 서비스별 조건에 충족하는 메달을 모아야 합니다.
+## `메달`
+- 간단히 이야기해서 메달은 Kaggler들의 각 분야에서의 활동 성과를 보여줍니다. 
+  - `Competition`에서 훌륭한 결과를 얻은 Kaggler
+  - 인기가 많은 `Notebook`을 작성하고 공유하는 Kaggler
+  - 유용한 `Dataset`을 공유하는 Kaggler
+  - 좋은 `Comment`를 작성하는 Kaggler
+<br>
+
+- `Contributer` 등급은 해당하는 조건을 만족하면 되지만 `Expert` 부터는 각 분야에 해당하는 조건에 요구하는 메달을 모아야 합니다.
+- `Competitions`의 경우 참가하는 팀 수에 따라 메달의 수여 기준도 다음과 같이 달라집니다.<br>
+  ![image](https://user-images.githubusercontent.com/61633137/103616627-1d36e380-4f70-11eb-8d7b-c026270fab11.png)
+<br>
+
+- `Datasets`, `Notebooks`, `Discussion`은 Vote 숫자로 평가합니다. Vote 숫자가 높을 수록 많은 Kaggler들에게 추천을 받았다는 의미입니다.<br>
+  ![image](https://user-images.githubusercontent.com/61633137/103617270-52900100-4f71-11eb-9760-7e520ffddd4b.png)
+- 유의해야할 사항은 각 부분의 게시물별로 수여되는 메달의 종류는 하나입니다.<br>
+  예를 들어서 `Dataset`에 올린 게시물이 20 Votes를 받았다면 동메달은 없어지고 은메달을 받는 것입니다.
+<br>
+
+## Kaggle `Contributor` 되기
+### 1.사용자 프로필 정보 추가하기
+- 본인의 프로필에 들어가서 Edit Profile을 클릭하고 다음 내용을 입력합니다.
+  - `자기소개 (bio)`
+  - `직업 (Occupation)`
+  - `소속 조직 (Organization)`
+  - `거주 도시 (City)`
+- 그 외에 `프로필 이미지`, `SNS` 등은 자유롭게 설정하시면 됩니다.
+<br>
+
+### 2. SMS 인증하기 (SMS verify your account)
+- 프로필 화면에서 `Phone Verification`을 클릭합니다.
+- `국가코드 (Country Code)`, `전화번호 (Phone Number)`, `로봇이 아닙니다` 박스에 체크를 한 후 `Send code`를 클릭합니다.
+- 전송된 코드를 입력하고 `Verify`를 클릭하면 인증이 완료됩니다.
+<br>
+
+### 3. Script 실행하기 (Run 1 script)
+- `Course`에서 강의를 진행하거나 직접 `Notebook`을 생성하여 아무 코드나 실행해보면 달성할 수 있습니다.
+- `4. Competition에 참가하기`에도 실행하는 과정이 있으니 건너뛰어도 괜찮습니다.
+<br>
+
+### 4. Competition에 참가하기 (Make 1 competition or task submission)
+- `Getting Started` 카테고리에 있는 Competition을 하나 고릅니다.
+- 들어가보면 화면 중간 정도에 아래와 같은 메뉴를 보실 수 있습니다.<br>
+![image](https://user-images.githubusercontent.com/61633137/103619281-cbdd2300-4f74-11eb-8c00-840110e018ce.png)
+- 여기서 `Notebooks`를 클릭하고 다른 사람들이 작성한 Notebook들을 구경해봅니다.
+- 원하는 Notebook을 하나 골라서 열어보면 오른쪽 위에 ![image](https://user-images.githubusercontent.com/61633137/103619428-12cb1880-4f75-11eb-9ec9-435c40a13160.png)
+  버튼이 보일 것입니다. 이 버튼을 클릭해서 Notebook을 복사합니다.
+- 복사가 완료되면 다시 오른쪽 위에 있는 `Save Version`을 클릭합니다.
+  - `Version Name`: 원하는 이름을 입력할 수 있습니다.
+  - `Version Type`: `Quick Save` 또는 `Save & Run All (Commit)`, 두 가지 옵션이 있는데 `Quick Save`는 저장만하고 실행은 하지 않으며 `Save & Run All (Commit)`은 실행도 합니다.
+- 여기서 `Save & Run All (Commit)`을 클릭하고 `Save` 버튼을 누릅니다.
+- 다시 프로필로 돌아가서 `Notebooks`를 클릭하면 방금 복사한 Notebook을 확인할 수 있습니다.<br>
+  이 노트북을 클릭하면 오른쪽 메뉴 중에 `Output`이 있습니다.<br> 
+  `Output`을 누르면 볼 수 있는 `Submission.csv`(Submission 파일의 이름은 다를 수도 있습니다)를 선택하고 오른쪽에 있는 `Submit to Competition`을 클릭합니다.
+- 이제 `Leaderboard` 메뉴로 화면이 옮겨지고 제출된 파일이 자동으로 채점이 됩니다.<br>
+  채점이 끝나면 점수를 확인할 수 있고 `Jump to your position on the leaderboard`를 클릭해 자신의 순위를 확인할 수 있습니다.
+<br>
+
+### 5. 댓글 달고 다른 사람의 게시물이나 댓글에 Upvote 하기 (Make 1 comment & Cast 1 upvote)
+- `Discussion`에서 자신이 원하는 Topic에 들어가서 관심있는 글을 클릭합니다. (`Site Forums`의 `Getting Started`에 들어가보는 것을 추천드립니다.)
+- 글을 잘 읽어보고 `댓글`을 작성합니다. 글이 유용하거나 마음에 들었다면 `Vote`도 눌러줍시다.
+<br>
