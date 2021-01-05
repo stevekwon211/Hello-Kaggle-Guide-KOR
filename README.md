@@ -8,6 +8,18 @@
 2. [Kaggle은 어떻게 활용되나요?](#kaggle은-어떻게-활용되나요)
 3. [Kaggle Competition?](#kaggle-competition)
 4. [Kaggle 시작하기](#kaggle-시작하기)
+
+#### 추가예정
+5. [Notebook이란 무엇인가요?](#notebook이란-무엇인가요)
+6. [Notebook 사용하는 법](#notebook-사용하는-법)
+7. [Competitions with Notebooks](#competitions-with-notebooks)
+8. [Competitions 세부 사항](#competition-세부-사항)
+9. [Competition의 규칙](#competition의-규칙)
+10. [Competition의 Data](#competition의-data)
+11. [Competition에 사용된 최신 기술](#competition에-사용된-최신-기술)
+12. [Kaggle의 Dataset과 API](#kaggle의-dataset과-api)
+13. [Kaggle에서 자주 사용하는 LightGBM](#kaggle에서-자주-사용하는-lightgbm)
+14. [Kaggle에서 자주 사용하는 fast.ai](#kaggle에서-자주-사용하는-fast.ai)
 <br>
 
 ***
@@ -45,7 +57,7 @@
   
 - __`영어`__
   - 전 세계의 데이터 사이언티스트들이 모이므로 기본적으로 `영어`를 사용합니다.
-  - `Competition의 공지사항`, `데이터 세트(Dataset)`, `토론(Discussion)`도 영어로 이루어집니다. (영어 공부 필수!! 또는 `파파고`..)<br>
+  - `Competition의 공지사항`, `데이터 세트(Dataset)`, `토론(Discussion)`도 영어로 이루어집니다. (영어 공부 필수!! 또는 `파파고..`)<br>
     아래는 Discussion과 Site Forum 사진입니다.
   ![image](https://user-images.githubusercontent.com/61633137/103596175-a59d9000-4f40-11eb-9e8c-90fc24e51347.png)
   - 실제로 Competition 입상자들의 프로필을 살펴보면 `미국`, `러시아`, `중국`, `인도`, `한국` 등 다양합니다.
