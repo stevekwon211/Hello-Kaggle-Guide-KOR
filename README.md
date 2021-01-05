@@ -1,28 +1,28 @@
 # Kaggle-Guide
 
 ## 목차
-1. [Kaggle이란 무엇인가요?](#kaggle이란-무엇인가요)
-2. [Kaggle은 어떻게 활용되나요?](#kaggle은-어떻게-활용되나요)
-3. [Kaggle Competition?]()
-4. [Kaggle 시작하기]()
-5. [Contributer 되는 법]()
-6. [Notebook이란 무엇인가요?]()
-7. [Notebook 사용하는 법]()
-8. [Competitions with Notebooks]()
-9. [Competitions 세부 사항]()
-10. [Competition의 규칙]()
-11. [Competition의 Data]()
-12. [Competition에 사용된 최신 기술]()
-13. [Kaggle의 Dataset과 API]()
-14. [Kaggle에서 자주 사용하는 LightGBM]()
-15. [Kaggle에서 자주 사용하는 fast.ai]()
+1. [Kaggle이란 무엇인가요?](#1.kaggle이란-무엇인가요)
+2. [Kaggle은 어떻게 활용되나요?](#2.kaggle은-어떻게-활용되나요)
+3. [Kaggle Competition?](#3.kaggle-competition)
+4. [Kaggle 시작하기](#4.kaggle-시작하기)
+5. [Contributer 되는 법](#5.contributer-되는-법)
+6. [Notebook이란 무엇인가요?](#6.notebook이란-무엇인가요)
+7. [Notebook 사용하는 법](#7.notebook-사용하는-법)
+8. [Competitions with Notebooks](#8.competitions-with-notebooks)
+9. [Competitions 세부 사항](#9.competition-세부-사항)
+10. [Competition의 규칙](#10.competition의-규칙)
+11. [Competition의 Data](#11.competition의-data)
+12. [Competition에 사용된 최신 기술](#12.competition에-사용된-최신-기술)
+13. [Kaggle의 Dataset과 API](#13.kaggle의-dataset과-api)
+14. [Kaggle에서 자주 사용하는 LightGBM](#14.kaggle에서-자주-사용하는-lightgbm)
+15. [Kaggle에서 자주 사용하는 fast.ai](#15.kaggle에서-자주-사용하는-fast.ai)
 <br>
 
 ***
 
 <br>
 
-# Kaggle이란 무엇인가요?
+# 1.Kaggle이란 무엇인가요?
 - __`Kaggle`__ 은 데이터 분석 경진 대회를 주최하는 플랫폼입니다.
 - 경진대회는 회사의 `연구 과제, 주요 서비스`를 위해 분석이 필요한 데이터를 제공해서 주최하는게 일반적입니다.
 ![1](https://user-images.githubusercontent.com/61633137/103594874-3c684d80-4f3d-11eb-9300-c33588266c63.png)
