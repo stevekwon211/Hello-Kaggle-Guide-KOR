@@ -8,16 +8,6 @@
 2. [Kaggle은 어떻게 활용되나요?](#kaggle은-어떻게-활용되나요)
 3. [Kaggle Competition?](#kaggle-competition)
 4. [Kaggle 시작하기](#kaggle-시작하기)
-5. [Notebook이란 무엇인가요?](#notebook이란-무엇인가요)
-6. [Notebook 사용하는 법](#notebook-사용하는-법)
-7. [Competitions with Notebooks](#competitions-with-notebooks)
-8. [Competitions 세부 사항](#competition-세부-사항)
-9. [Competition의 규칙](#competition의-규칙)
-10. [Competition의 Data](#competition의-data)
-11. [Competition에 사용된 최신 기술](#competition에-사용된-최신-기술)
-12. [Kaggle의 Dataset과 API](#kaggle의-dataset과-api)
-13. [Kaggle에서 자주 사용하는 LightGBM](#kaggle에서-자주-사용하는-lightgbm)
-14. [Kaggle에서 자주 사용하는 fast.ai](#kaggle에서-자주-사용하는-fast.ai)
 <br>
 
 ***
@@ -274,15 +264,25 @@
 - 들어가보면 화면 중간 정도에 아래와 같은 메뉴를 보실 수 있습니다.<br>
 ![image](https://user-images.githubusercontent.com/61633137/103619281-cbdd2300-4f74-11eb-8c00-840110e018ce.png)
 - 여기서 `Notebooks`를 클릭하고 다른 사람들이 작성한 Notebook들을 구경해봅니다.
+  <br>
+  
 - 원하는 Notebook을 하나 골라서 열어보면 오른쪽 위에 ![image](https://user-images.githubusercontent.com/61633137/103619428-12cb1880-4f75-11eb-9ec9-435c40a13160.png)
   버튼이 보일 것입니다. 이 버튼을 클릭해서 Notebook을 복사합니다.
+  <br>
+  
 - 복사가 완료되면 다시 오른쪽 위에 있는 `Save Version`을 클릭합니다.
   - `Version Name`: 원하는 이름을 입력할 수 있습니다.
   - `Version Type`: `Quick Save` 또는 `Save & Run All (Commit)`, 두 가지 옵션이 있는데 `Quick Save`는 저장만하고 실행은 하지 않으며 `Save & Run All (Commit)`은 실행도 합니다.
+<br>
+
 - 여기서 `Save & Run All (Commit)`을 클릭하고 `Save` 버튼을 누릅니다.
+<br>
+
 - 다시 프로필로 돌아가서 `Notebooks`를 클릭하면 방금 복사한 Notebook을 확인할 수 있습니다.<br>
   이 노트북을 클릭하면 오른쪽 메뉴 중에 `Output`이 있습니다.<br> 
   `Output`을 누르면 볼 수 있는 `Submission.csv`(Submission 파일의 이름은 다를 수도 있습니다)를 선택하고 오른쪽에 있는 `Submit to Competition`을 클릭합니다.
+<br>
+
 - 이제 `Leaderboard` 메뉴로 화면이 옮겨지고 제출된 파일이 자동으로 채점이 됩니다.<br>
   채점이 끝나면 점수를 확인할 수 있고 `Jump to your position on the leaderboard`를 클릭해 자신의 순위를 확인할 수 있습니다.
 <br>
@@ -291,3 +291,5 @@
 - `Discussion`에서 자신이 원하는 Topic에 들어가서 관심있는 글을 클릭합니다. (`Site Forums`의 `Getting Started`에 들어가보는 것을 추천드립니다.)
 - 글을 잘 읽어보고 `댓글`을 작성합니다. 글이 유용하거나 마음에 들었다면 `Vote`도 눌러줍시다.
 <br>
+
+### 6. Kaggle `Contributor` 되기 완료!
