@@ -1,8 +1,8 @@
 # Kaggle-Guide
 
 ## 목차
-1. [Kaggle이란 무엇인가요?](https://github.com/stevekwon211/Kaggle-Guide#kaggle%EC%9D%B4%EB%9E%80)
-2. [Kaggle은 어떻게 활용되나요?](#Kaggle은-어떻게-활용되나요?)
+1. [Kaggle이란 무엇인가요?](#kaggle?)
+2. [Kaggle은 어떻게 활용되나요?]()
 3. [Kaggle Competition?]()
 4. [Kaggle 시작하기]()
 5. [Contributer 되는 법]()
