@@ -121,5 +121,61 @@
 <br>
 
 ## Discussion 활용하기
-- 모르는 것이 있으면 메인 홈페이지의 __`Communities`__ 또는 가 Competition마다 있는 __`Discusstion`__ 에 질문할 수 있습니다.
-- 
+- 모르는 것이 있으면 메인 홈페이지의 __`Communities`__ , __`Site Forums`__ , 그리고 Competition마다 있는 __`Discusstion`__ 에 질문할 수 있습니다.<br>
+- `Communities`
+  ![image](https://user-images.githubusercontent.com/61633137/103608822-9548dd80-4f5f-11eb-8a55-626a9a0015bb.png)
+
+- `Site Forums`
+  ![image](https://user-images.githubusercontent.com/61633137/103608932-f2dd2a00-4f5f-11eb-8d5d-6f1761e61a1f.png)
+<br>
+
+***
+
+<br>
+
+# Kaggle Competition?
+[Competitions Documentation](https://www.kaggle.com/docs/competitions)에서 몇 가지 내용을 참조하여 작성했습니다.
+<br>
+
+## 가장 일반적인 Competition인 `Featured`
+![image](https://user-images.githubusercontent.com/61633137/103611173-0dfe6880-4f65-11eb-8141-aac631077c34.png)
+- 난이도가 있으며 일반적으로 상업적인 목적을 가진 Competition들입니다.
+- 대부분의 Kaggler들이 참여하며 지금까지 진행되었던 Competition들의 상금은 `$100`부터 많게는 `$1,500,000`까지도 있습니다.
+
+## 연구목적의 `Research`
+![image](https://user-images.githubusercontent.com/61633137/103611678-1d31e600-4f66-11eb-9e41-c972d26d3440.png)
+- 연구적인 주제들을 주로 다루며 일반적으로 상금이나 보상은 주어지지 않습니다.(현재 진행중인 Research Competition들은 모두 상금이 있네요)
+- 대신 덜 경쟁적이며 지적 호기심이 많은 Kaggler들과 토론해가며 연구를 할 수 있습니다.
+
+## 학습용 Competition인 `Getting Started`
+![image](https://user-images.githubusercontent.com/61633137/103609060-510a0d00-4f60-11eb-98e6-b42e4d2a8336.png)
+- 여기에 나오는 Competition들은 초보자 대상의 학습용 Competition들입니다.
+- 특히 __`Titanic: Machine Learning from Disaster`__ , __`House Prices: Advanced Regression Techniques`__ , __`Digit Recognizer`__ 이 3가지 Competition은 머신러닝에 입문한 분들에게   가장 많이 추천되고 도움이 되는 Competition들입니다.
+
+## 데이터 사이언티스트, 엔지니어들의 `Playground`
+![image](https://user-images.githubusercontent.com/61633137/103609928-45b7e100-4f62-11eb-992a-14a98dc190b3.png)
+- 주로 데이터 사이언티스트와 엔지니어들이 흥미롭다고 느낄만한 주제들로 Competition이 열립니다.
+- Playground라고 해서 난이도가 쉽진 않습니다. 보통 최근에 발표한 학술/기술적 문제나 공공 사회 문제도 다룹니다.
+- 주최측에서 상금이나 보상을 제공하는 경우도 있습니다.
+
+## 취업 기회를 얻을 수 있는 `Recruitment`
+![image](https://user-images.githubusercontent.com/61633137/103611946-bc56dd80-4f66-11eb-8408-576df10506c3.png)
+- 기업들이 주최하며 보상은 주로 Job Interview(면접) 기회입니다. Competition이 종료된 시점에 참가자들은 Resume(이력서)를 업로드할 수 있습니다.
+
+## 정기적으로 열리는 `Annual Competition`
+- Kaggle에는 정기적으로 열리는 Competition들이 몇 가지 있습니다. 현재 Kaggle의 에서 다음과 같은 내용을 확인할 수 있습니다.
+  ![image](https://user-images.githubusercontent.com/61633137/103610665-04283580-4f64-11eb-9e75-b4f37e84c2bf.png)
+
+## 분석한 결과를 효과적으로 설명해야하는 `Analytics`
+- 이건 Documentation에 설명이 나와있지 않아서 현재 올라와있는 Analytics Competition들을 직접 알아보고 작성했습니다.
+- 각 Competition의 Evaluation과 Submission 형식을 읽어보니 Analytics의 채점 방식은 Notebook을 직접 제출하여 사람이 채점하는 방식으로 보여집니다.<br>
+  분석한 데이터를 주최자의 요구사항에 맞게 설명해야 합니다. 마치 회사에서 프레젠테이션을 통해 경영진을 설득하는 것과 비슷해보입니다.
+<br>
+
+***
+
+<br>
+
+# Kaggle 시작하기
+## 회원가입
+- Kaggle을 시작하기에 앞서 오른쪽 상단의 `Register` 버튼을 눌러서 회원가입을 먼저 진행해주셔야 합니다.
