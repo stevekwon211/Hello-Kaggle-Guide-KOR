@@ -1,7 +1,7 @@
 # Kaggle-Guide
 
 ## 목차
-1. [Kaggle이란 무엇인가요?](#1.kaggle이란-무엇인가요)
+1. [Kaggle이란 무엇인가요?](#kaggle이란-무엇인가요)
 2. [Kaggle은 어떻게 활용되나요?](#2.kaggle은-어떻게-활용되나요)
 3. [Kaggle Competition?](#3.kaggle-competition)
 4. [Kaggle 시작하기](#4.kaggle-시작하기)
