@@ -73,12 +73,14 @@
 <br>
 
 8. [Competitions의 규칙](#competitions의-규칙)
-
+    - [어떤 규칙들을 봐야하나요?](#어떤-규칙들을-봐야하나요)
 <br>
 
-#### 추가예정
-10. [Competition에 사용된 최신 기술](#competition에-사용된-최신-기술)
-11. [Kaggle의 Dataset과 API](#kaggle의-dataset과-api)
+9. [Kaggle에서 기술의 흐름을 살펴보자](#kaggle에서-기술의-흐름을-살펴보자)
+    - [종료된 Competition에서 살펴보기](종료된-competition에서-살펴보기)
+<br>
+
+10. [Kaggle Dataset과 API를 활용해보자](#kaggle-dataset과-api를-활용해보자)
 <br>
 
 ***
@@ -613,3 +615,66 @@
 
 <br>
 
+## Kaggle에서 기술의 흐름을 살펴보자
+### 종료된 `Competition`에서 살펴보기
+- `Kaggle`의 특징이 하나 있는데 바로 오래전에 종료된 `Competition`의 `Discussion`과 `Notebook`을 그대로 남긴다는 것입니다.<br>
+  그래서 이것들을 잘 살펴보면 당시 어떤 기술이 어떤 방식으로 어디에 적용되 었는지 확인할 수 있습니다.
+- 예시
+  |Competition|사용된 기술|설명|
+  |------|-----|-----|
+  |Mercari Price Suggestion Cahllenge(2018.2)|TF-IDF 벡터 + 전결합층 신경망|각 단어의 출현 빈도를 신경망으로 학습|
+  |Toxic Comment Classification Challenge(2018.3)|FastText, Glove + GRU + LightGBM|단어 벡터 사전을 시계열 데이터로 학습해 조합함|  
+  |Avito Demand Prediction Challenge(2018.6)|FastText + LSTM + 2D-CNN|문장의 데이터와 이미지를 신경망으로 동시에 학습|
+  |Quora Insincere Questions Classification(2019.1)|Glove, para + OOV Token + LSTM + 1D-CNN|어휘 이외의 단어를 OOV 토큰으로 학습|
+  |Jigsaw Unintended Bias in Toxicity Classification(2019.6)|BERT + XLNet + GPT2| BERT 모델이 Kaggle에 등장|
+<br>
+
+### 입상한 솔루션 한 번에 살펴보기
+- [Data-Science-Competitions](https://github.com/interviewBubble/Data-Science-Competitions)라는 `Github` 저장소에서 `Competition`에 입상한 솔루션을 주제별로 정리하여 공개하고 있습니다.(지금 확인해보니 11개월전이 마지막 커밋이긴 합니다.)
+- 입상한 솔루션은 당시 기술 기반이므로 현재 더 좋은 기술이 있는지 확인해봐야 합니다.
+- 그리고 대부분의 `Competition`은 종료된 이후에도 `Private Leaderboard` 페이지에 최신 기술을 적용한 솔루션이 계속 공개됩니다.
+<br>
+
+***
+
+<br>
+
+## Kaggle Dataset과 API를 활용해보자
+### 공개 `Dataset` 활용하기
+- 일반적인 알고리즘을 연구할 때는 널리 공개된 `Dataset`을 통해 성능을 테스트하는 것이 좋은데 `UCI Machine Learning Repository`가 유명합니다.<br>
+  많은 학술 논문에서 이용하기도 합니다.
+<br>
+
+### `Data Repository`(데이터 저장소)로 활용하기
+- `Github`를 사용할 때 스토리지나 서버는 필요하지 않은 것처럼 `Kaggle`을 `Dataset`과 `Notebook`을 간편하게 저장하는 장소로 활용할 수 있습니다.(무료!)
+- 또한 `Notebook`에 `Dataset`을 바로 연결하여 사용할 수 있다는 장점도 있습니다.
+- 공개 `Dataset` 하나당 최대 20GB를 사용할 수 있고 비공개의 경우 전체 최대 20GB를 사용 가능하다는 용량 제한이 있습니다.
+<br>
+
+### `Kaggle API`
+- `Kaggle API`는 다양한 개발 환경에서 `Kaggle`의 여러가지 기능을 사용할 수 있는 API 입니다.
+- `Python 3`으로 구현되었으며 터미널 환경에 커맨드를 입력하는 방식입니다.
+<br>
+
+### `Kaggle API` 설치하기
+- 시작하기 전에 `Python`과 `pip`를 먼저 설치해주셔야 합니다.
+- [Python 설치](https://www.python.org/downloads/)
+- [pip 설치](https://pip.pypa.io/en/stable/installing/)
+<br>
+
+- 1.우선 `pip install kaggle` 명령어로 `Kaggle API`를 설치해줍니다.
+- 2.그리고 본인 프로필에 들어가서 ![image](https://user-images.githubusercontent.com/61633137/103771883-ea721580-506b-11eb-888d-bff7ae4b8b07.png) 이렇게 생긴 버튼을 클릭후 `Accounts`를 누릅니다.
+- 3.![image](https://user-images.githubusercontent.com/61633137/103771829-d4645500-506b-11eb-93d8-14c99f8e4255.png)<br>
+    여기서 `Create New API Token`을 눌러서 `json` 파일을 다운로드합니다.
+- 4. 방금 다운로드한 `json` 파일을 사용자의 홈 디렉터리에 `.kaggle/kaggle.json` 으로 저장하면 `Kaggle API`를 사용할 준비가 완료되었습니다.
+<br>
+
+### `Kaggle API` 사용하기
+- 사용자 PC의 터미널을 열고 명령을 실행할 수 있습니다.
+- `kaggle competitions list` 명령을 실행하면 현재 진행중인 `Competition`들을 확인할 수 있습니다.<br>
+  ![Screenshot from 2021-01-06 22-15-25](https://user-images.githubusercontent.com/61633137/103772382-c82cc780-506c-11eb-8230-e0ad0f23f02d.png)
+- `Competition`의 파일을 확인하고 다운로드하려면 `kaggle competitions files COMPETITION_NAME` 으로 파일을 확인하고 `kaggle competitions download COMPETITION_NAME` 하면 파일들을 다운로드할 수 있습니다.
+- `Kaggle API`에 대해 더 자세히 알아보시려면 [Kaggle Public API Documentation](https://www.kaggle.com/docs/api)을 확인해주시길 바랍니다.
+<br>
+
+### 저의 부족한 문서를 읽어주신 모든 분들께 감사드립니다!!
