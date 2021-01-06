@@ -1,26 +1,34 @@
 # Hello Kaggle!:wave:
 
 `Kaggle의 공식 문서`와 `캐글 가이드`라는 책을 읽고 `Kaggle`의 정의나 기본적인 사용법들에 대하여 정리해보았습니다.<br>
-저처럼 이제 막 Kaggle을 접하는 분들에게 도움이 되었으면 합니다.<br>
+저처럼 이제 막 `Kaggle`을 접하는 분들에게 도움이 되었으면 합니다.<br>
 수정해야할 부분이 있으면 `Issues`에 남겨주시면 감사하겠습니다.<br>
+
+참고로 `Hello Kaggle!` 문서는 `Python 프로그래밍` 또는 `머신러닝 이론` 같은 것은 거의 다루지 않고 `Kaggle 사용법`에 집중하였습니다.<br>
+프로그래밍이나 데이터 사이언스, 머신러닝 자료를 찾고 계신 분들을 위해 제가 도움을 받았던 링크를 몇 군데 남겨두겠습니다.<br>
+- [DATA SCIENCE ROADMAP 2020](https://medium.com/@ArtisOne/data-science-roadmap-2020-b256fb948404)
+- [datastacktv님의 data engineer roadmap](https://github.com/datastacktv/data-engineer-roadmap)
+- [My Data Science Online Learning Journey on Croursera](https://www.kdnuggets.com/2020/11/data-science-online-learning-journey-coursera.html)
+- [머신러닝 딥러닝 독학자료 모음 - teddylee777님의 machine-learning Repository](https://github.com/teddylee777/machine-learning)
+- [Team-Neighborhood의 I want to study Data Science](https://github.com/Team-Neighborhood/I-want-to-study-Data-Science)
+- [한걸음 한걸음, 데이터 과학자(Data Scientist)가 되는 방법](https://theorydb.github.io/dev/2020/04/12/dev-competition-how-to-become-data-scientist/)
+<br>
 
 ## 목차
 1. [Kaggle이란 무엇인가요?](#kaggle이란-무엇인가요)
 2. [Kaggle은 어떻게 활용되나요?](#kaggle은-어떻게-활용되나요)
 3. [Kaggle Competition?](#kaggle-competition)
 4. [Kaggle 시작하기](#kaggle-시작하기)
-5. [Notebook에 대하여](#notebook에-대하여)
+5. [Notebook에 대하여](#notebook과-친해지기)
+6. [Competitions with Notebooks](#competitions-with-notebooks)
 <br>
 
 #### 추가예정
-6. [Competitions with Notebooks](#competitions-with-notebooks)
 7. [Competitions 세부 사항](#competition-세부-사항)
 8. [Competition의 규칙](#competition의-규칙)
 9. [Competition의 Data](#competition의-data)
 10. [Competition에 사용된 최신 기술](#competition에-사용된-최신-기술)
 11. [Kaggle의 Dataset과 API](#kaggle의-dataset과-api)
-12. [Kaggle에서 자주 사용하는 LightGBM](#kaggle에서-자주-사용하는-lightgbm)
-13. [Kaggle에서 자주 사용하는 fast.ai](#kaggle에서-자주-사용하는-fast.ai)
 <br>
 
 ***
@@ -318,16 +326,16 @@
 
 <br>
 
-## Notebook에 대하여
+## Notebook과 친해지기
 ### [Notebook에 대한 간단한 소개는 여기를 다시 읽어주세요!](#notebook-활용하기)
 <br>
 
 ### `Notebook`으로 할 수 있는 것은?
 - 데이터 분석용 프로그래밍이 주 목적이며 작성된 프로그램은 캐글 서버에서 실행됩니다.
 - `Competition`에 제출하거나 `Notebook`을 `Kaggler`들과 공유할 수 있습니다. 공유되는 `Notebook`중에는 오직 교육 또는 기술을 알려주기위한 목적인 것도 있습니다.
-- `코드용 셀` 과 `마크다운 셀`을 활용하여 코드, 코드에 대한 설명(텍스트, 이미지 등)을 작성할 수 있습니다.
-  [마크다운(Markdown) 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
-  [마크다운 emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+- `코드용 셀` 과 `마크다운 셀`을 활용하여 코드, 코드에 대한 설명(텍스트, 이미지 등)을 작성할 수 있습니다. <br>
+  [마크다운(Markdown) 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)<br>
+  [마크다운 emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)<br>
   위 두가지 링크는 제가 처음 마크다운을 사용하면서 참고했고 이모지는 지금도 필요할 때마다 가끔식 보고있습니다.
 <br>
 
@@ -379,4 +387,65 @@
 - 왼쪽 상단의 ![image](https://user-images.githubusercontent.com/61633137/103718200-89195a80-5009-11eb-83a9-efa581ca645a.png) 이 재생버튼을 눌러주거나<br>
   현재 실행시키고 싶은 코드 셀로 가서 `Ctrl + Enter` 또는 `Shift + Enter` 입력해서 코드를 실행합니다. 그러면 다음과 같이 출력이 될 것입니다.<br>
   ![image](https://user-images.githubusercontent.com/61633137/103717489-f4166180-5008-11eb-88b8-85936bb31044.png)
+<br>
+
+- 셀에서 볼 수 있는 버튼들의 각 기능들입니다.
+  -![image](https://user-images.githubusercontent.com/61633137/103721394-e369e980-5010-11eb-8df6-a5f77b67caf3.png) : 셀 위치를 한 칸 앞으로 올립니다.
+  -![image](https://user-images.githubusercontent.com/61633137/103721428-f7155000-5010-11eb-86f7-3a0e8ccff5af.png) : 셀 위치를 한 칸 아래로 내립니다.
+  -![image](https://user-images.githubusercontent.com/61633137/103721456-085e5c80-5011-11eb-9768-24161e8b6f4e.png) : 해당 셀을 삭제합니다.
+  -![image](https://user-images.githubusercontent.com/61633137/103721476-17450f00-5011-11eb-92ba-84e80c437c8d.png)/![image](https://user-images.githubusercontent.com/61633137/103721509-2deb6600-5011-11eb-88ed-979cd05bbb7b.png) : 해당 셀을 숨기거나 나타냅니다.
+  -![image](https://user-images.githubusercontent.com/61633137/103721551-48254400-5011-11eb-98ef-66aaa3e6a3c8.png) : 다음과 같은 부가 기능을 제공합니다.<br>
+   ![image](https://user-images.githubusercontent.com/61633137/103721556-49ef0780-5011-11eb-8abb-45061ffa7de0.png)
+<br>
+
+### `Notebook`의 다양한 설정 
+- `공개`&`비공개` 설정하기
+  - `Notebook`은 다른 `Kaggler`들에게 공유하기 위해 공개할 수 있습니다. 하지만 본인만 알고싶다거나 팀으로 활동할 때에는 `비공개`, `특정 사용자에게 공유`같은 설정을 할 수 있습니다.
+  - 오른쪽 상단에 있는 `Share` 버튼을 누르면 공개 또는 비공개를 설정하는 창이 열립니다.
+  - `Privacy`를 `Public`으로 설정하면 `Apache 2.0 License` 적용과 함께 공개가 됩니다.
+  - `Colaborators`에서 사용자를 검색해 공동 작업자로 추가할 수 있습니다.
+<br>
+
+- `Settings` 설명
+  - `Language` : `Python`과 `R` 중에 사용할 프로그래밍 언어를 설정할 수 있습니다.
+  - `Environment` : `Docker` 이미지를 설정할 수 있습니다. `Original`은 `Notebook`을 만들 때 직접 개발 환경을 설정하는 것이고 `Latest Available`은 `Kaggle`이 제공하는 최신 개발 환경을 사용하는 옵션입니다.
+  - `Accelerator` : `GPU` 또는 `TPU`를 사용할지 설정할 수 있습니다.
+  - `GPU/TPU Quota` : `GPU` 및 `TPU` 사용 시간와 사용량을 보여줍니다.
+  - `Internet` : 인터넷 연결 여부를 설정할 수 있습니다.
+   - `Internet`을 `On`으로 설정하면 특정 패키지를 설치할 수 있습니다. 또한 구글 계정을 이용해 `GCP (Google Cloud Platform)`의 `BigQuery`, `Cloud Storage`, `AutoML` 서비스를 사용할 수 있습니다.
+
+<br>
+
+***
+
+<br>
+
+## Competitions with Notebooks
+- `Competition`을 진행할 때 `Notebook`의 오른쪽 상단을 보면 `Data` 탭이 있습니다. 눌러보면 3가지의 파일이 있을 것인데 각 파일에 대한 설명은 다음과 같습니다.
+  - `train.csv` : 정답 레이블이 있는 학습용 데이터입니다.
+  - `test.csv` : 정답 레이블이 없는 테스트용 데이터입니다.
+  - `sample_submission.csv` : 제출용 데이터 예입니다.
+<br>
+
+- `Competition`의 `Data` 메뉴를 보면 각 파일이 어떤 데이터가 담겨 있는지 확인할 수 있습니다.<br>
+  예시로 `Titanic - Machine Learning from Disaster`를 보겠습니다.<br>
+  ![image](https://user-images.githubusercontent.com/61633137/103719565-9e43b880-500c-11eb-95ff-67b5cda88821.png)<br>
+  위 사진에서 [Data](https://www.kaggle.com/c/titanic/data?select=gender_submission.csv) 메뉴를 클릭하면 다음과 같이 Overview를 읽어볼 수 있고<br>
+  ![image](https://user-images.githubusercontent.com/61633137/103719731-00042280-500d-11eb-8638-b0f543c65171.png)<br>
+  더 아래로 내려가보면 다음과 같이 각 파일을 선택해 데이터를 확인해볼 수 있으며 다운로드도 가능합니다.<br>
+  ![image](https://user-images.githubusercontent.com/61633137/103719767-17431000-500d-11eb-9e20-e36dccdadbb4.png)<br>
+
+- 위 파일들을 이용해서 모델을 작성 및 제출할 csv 파일을 생성했다고 가정하고 제출하는 방법을 다루어보겠습니다.<br> 
+  ([4-competition에-참가하기](#4-competition에-참가하기-make-1-competition-or-task-submission)에서도 같은 내용이 설명되어 있습니다.)
+  - `Notebook` 화면의 오른쪽 상단에 있는 `Save Version`을 클릭합니다. (만약 코드를 실행하지 않은 상태라면 `Save & Run All (Commit)`을 클릭하면 됩니다.
+  - `Save & Run All (Commit)`에서 `Commit`은 현재 제가 문서를 작성하고 있는 `Github`의 `Git`과 같은 의미입니다.<br>
+    그래서 `Kaggle Notebook`은 이전에 작성했던 소스 코드의 버전을 참조할 수 있습니다.
+    
+- 이제 프로필로 돌아가서 `Notebooks`를 클릭하면 방금 저장한 Notebook을 확인할 수 있습니다.<br>
+  이 노트북을 클릭하면 오른쪽 메뉴 중에 `Output`이 있습니다.<br> 
+  `Output`을 누르면 볼 수 있는 `Submission.csv`를 선택하고 오른쪽에 있는 `Submit to Competition`을 클릭합니다.
+<br>
+
+- 이제 `Leaderboard` 메뉴로 화면이 옮겨지고 제출된 파일이 자동으로 채점이 됩니다.<br>
+  채점이 끝나면 점수를 확인할 수 있고 `Jump to your position on the leaderboard`를 클릭해 자신의 순위를 확인할 수 있습니다.
 <br>
