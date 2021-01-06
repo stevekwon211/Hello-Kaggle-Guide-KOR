@@ -64,7 +64,10 @@
     - [Competition Notebook에서 사용할 Data File 다루는 법](#competition-notebook에서-사용할-data-file-다루는-법)
 <br>
 
-7. [Competitions 진행 흐름](#competition-진행-흐름)
+7. [Competitions 진행 흐름](#competitions-진행-흐름)
+    - [범용 알고리즘을 구현한 Baseline](#범용-알고리즘을-구현한-baseline)
+    - [데이터 분석 Notebook](#데이터-분석-notebook)
+<br>
 
 #### 추가예정
 7. [Competitions 세부 사항](#competition-세부-사항)
