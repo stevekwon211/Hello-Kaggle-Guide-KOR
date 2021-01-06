@@ -70,8 +70,10 @@
     - [Notebook 포크하기](#notebook-포크하기)
 <br>
 
+8. [Competitions 세부 사항](#competition-세부-사항)
+
 #### 추가예정
-7. [Competitions 세부 사항](#competition-세부-사항)
+
 8. [Competition의 규칙](#competition의-규칙)
 9. [Competition의 Data](#competition의-data)
 10. [Competition에 사용된 최신 기술](#competition에-사용된-최신-기술)
@@ -437,10 +439,10 @@
 <br>
 
 - 셀에서 볼 수 있는 버튼들의 각 기능들입니다.
-  -![image](https://user-images.githubusercontent.com/61633137/103721394-e369e980-5010-11eb-8df6-a5f77b67caf3.png) : 셀 위치를 한 칸 앞으로 올립니다.
-  -![image](https://user-images.githubusercontent.com/61633137/103721428-f7155000-5010-11eb-86f7-3a0e8ccff5af.png) : 셀 위치를 한 칸 아래로 내립니다.
-  -![image](https://user-images.githubusercontent.com/61633137/103721456-085e5c80-5011-11eb-9768-24161e8b6f4e.png) : 해당 셀을 삭제합니다.
-  -![image](https://user-images.githubusercontent.com/61633137/103721476-17450f00-5011-11eb-92ba-84e80c437c8d.png)/![image](https://user-images.githubusercontent.com/61633137/103721509-2deb6600-5011-11eb-88ed-979cd05bbb7b.png) : 해당 셀을 숨기거나 나타냅니다.
+  -![image](https://user-images.githubusercontent.com/61633137/103721394-e369e980-5010-11eb-8df6-a5f77b67caf3.png) : 셀 위치를 한 칸 앞으로 올립니다.<br>
+  -![image](https://user-images.githubusercontent.com/61633137/103721428-f7155000-5010-11eb-86f7-3a0e8ccff5af.png) : 셀 위치를 한 칸 아래로 내립니다.<br>
+  -![image](https://user-images.githubusercontent.com/61633137/103721456-085e5c80-5011-11eb-9768-24161e8b6f4e.png) : 해당 셀을 삭제합니다.<br>
+  -![image](https://user-images.githubusercontent.com/61633137/103721476-17450f00-5011-11eb-92ba-84e80c437c8d.png)/![image](https://user-images.githubusercontent.com/61633137/103721509-2deb6600-5011-11eb-88ed-979cd05bbb7b.png) : 해당 셀을 숨기거나 나타냅니다.<br>
   -![image](https://user-images.githubusercontent.com/61633137/103721551-48254400-5011-11eb-98ef-66aaa3e6a3c8.png) : 다음과 같은 부가 기능을 제공합니다.<br>
    ![image](https://user-images.githubusercontent.com/61633137/103721556-49ef0780-5011-11eb-8abb-45061ffa7de0.png)
 <br>
@@ -556,6 +558,8 @@
 <br>
 
 ## Competitions 진행 흐름
+- 여기서 나오는 종류나 순서는 `캐글 가이드` 저자 사카모토 도시유키님의 개인 생각입니다.
+
 ### 범용 알고리즘을 구현한 `Baseline`
 - 먼저 데이터 분석을 시작하면 범용 알고리즘을 통해 출력 데이터를 얻습니다. 
 - 이후 본격적으로 머신러닝 모델을 개발하고 범용 알고리즘을 통해 얻은 출력 데이터와 결과를 비교합니다. 
@@ -571,3 +575,24 @@
 ### `Notebook 포크하기`
 - `머신러닝`과 `Kaggle`에 처음 입문한 사람들은 곧바로 데이터 분석이나 모델을 개발하지 않고 공개되어 있는 `Notebook`을 포크해오는 것도 하나의 방법입니다.
 - `포크(Fork)`란 소스 코드의 한 버전을 복사해오는 것을 뜻합니다.
+- 포크하고 싶은 `Notebook`의 오른쪽 상단에 위치한 ![image](https://user-images.githubusercontent.com/61633137/103757146-b25ed880-5053-11eb-9e1f-48b887dc2eba.png) 버튼을 눌러서 복사하면됩니다.
+<br>
+
+### `병합 Notebook`
+- `Merge`, `Blending`, `Stacking`, `Ensemble` 등의 단어가 `Notebook` 제목에 있다면 `병합 Notebook` 이라고 합니다.
+- 이름에서 알 수 있듯이 여러 `Notebook`을 합친 `Notebook`을 뜻합니다.
+- 예시: ![image](https://user-images.githubusercontent.com/61633137/103759052-6f523480-5056-11eb-8d15-17e83fdb492d.png)
+<br>
+
+### 지금까지 나온 `Notebook` 등장 순서 정리와 결론
+![Untitled Diagram](https://user-images.githubusercontent.com/61633137/103762670-0cfc3280-505c-11eb-89c9-a79645e1dedb.png)
+- 위와 같은 순서로 `Competition`이 진행된다고 했을 때 무작정 우승자의 `Notebook`을 보는 것보단 그 과정을 이해할 수 있도록 다양한 `Notebook`을 공부해보는 것이 좋을 것이라 생각이됩니다.
+- 또한 `Competition`은 기본적으로 경쟁을 하는 것이므로 공개된 `Notebook`들은 `Kaggler`들이 알아도 본인에게 큰 타격이 없다는 뜻입니다.<br>
+  실제로 입상한 분들의 `Notebook`을 보면 당시 최신 기술을 사용하거나 공개했던 `Notebook`과는 다른 솔루션을 사용한 경우도 종종 보입니다.
+<br>
+
+***
+
+<br>
+
+
