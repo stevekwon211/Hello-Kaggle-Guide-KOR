@@ -77,10 +77,19 @@
 <br>
 
 9. [Kaggle에서 기술의 흐름을 살펴보자](#kaggle에서-기술의-흐름을-살펴보자)
-    - [종료된 Competition에서 살펴보기](종료된-competition에서-살펴보기)
+    - [종료된 Competition에서 살펴보기](#종료된-competition에서-살펴보기)
+    - [입상한 솔루션 한 번에 살펴보기](#입상한-솔루션-한-번에-살펴보기)
 <br>
 
 10. [Kaggle Dataset과 API를 활용해보자](#kaggle-dataset과-api를-활용해보자)
+    - [공개 Dataset 활용하기](#공개-dataset-활용하기)
+    - [Data Repository(데이터 저장소)로 활용하기](#data-repository데이터-저장소로-활용하기)
+    - [Kaggle API](#kaggle-api)
+    - [Kaggle API 설치하기](#kaggle-api-설치하기)
+    - [Kaggle API 사용하기](#kaggle-api-사용하기)
+<br>
+
+11. [마무리 인사](#마무리-인사)
 <br>
 
 ***
@@ -677,4 +686,11 @@
 - `Kaggle API`에 대해 더 자세히 알아보시려면 [Kaggle Public API Documentation](https://www.kaggle.com/docs/api)을 확인해주시길 바랍니다.
 <br>
 
-### 저의 부족한 문서를 읽어주신 모든 분들께 감사드립니다!!
+### 마무리 인사
+일단 부족함이 많은 저의 __`Hello Kaggle!`__ 문서를 읽어주신 모든 분들에게 감사 드립니다.<br>
+사실 저는 __`파이썬`__ 을 2020년 4월에 처음 공부했고 같은 해 7월에 입대를 하게되면서 공부에 온전히 집중하지 못하는 상황이기도 했습니다.<br>
+그래서 데이터 사이언스 분야를 심도있게 공부하지 못했고 이해도 많이 부족합니다.<br>
+이제서야 __`머신러닝`__ 과 __`Kaggle`__ 에 발을 들이게 되었네요.<br>
+이번에 __`Hello Kaggle!`__ 문서를 정리하면서 __`Kaggle`__ 에 대한 이해도가 높아졌고 __`Getting Started 에 있는 Competition`__ 부터 시작하려고 합니다.<br>
+또한 다른 뛰어난 __`Kaggler분들의 Notebook`__ 을 보면서 최신기술을 열심히 따라가 보려고 합니다.<br>
+데이터 사이언스를 공부하는 모든 분들 __`화이팅`__ 입니다!
