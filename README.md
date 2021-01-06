@@ -67,6 +67,7 @@
 7. [Competitions 진행 흐름](#competitions-진행-흐름)
     - [범용 알고리즘을 구현한 Baseline](#범용-알고리즘을-구현한-baseline)
     - [데이터 분석 Notebook](#데이터-분석-notebook)
+    - [Notebook 포크하기](#notebook-포크하기)
 <br>
 
 #### 추가예정
