@@ -64,18 +64,19 @@
     - [Competition Notebook에서 사용할 Data File 다루는 법](#competition-notebook에서-사용할-data-file-다루는-법)
 <br>
 
-7. [Competitions 진행 흐름](#competitions-진행-흐름)
+7. [Competitions의 진행 흐름](#competitions의-진행-흐름)
     - [범용 알고리즘을 구현한 Baseline](#범용-알고리즘을-구현한-baseline)
     - [데이터 분석 Notebook](#데이터-분석-notebook)
     - [Notebook 포크하기](#notebook-포크하기)
+    - [병합 Notebook](#병합-notebook)
+    - [지금까지 나온 Notebook 등장 순서 정리와 결론](#지금까지-나온-notebook-등장-순서-정리와-결론)
 <br>
 
-8. [Competitions 세부 사항](#competition-세부-사항)
+8. [Competitions의 규칙](#competitions의-규칙)
+
+<br>
 
 #### 추가예정
-
-8. [Competition의 규칙](#competition의-규칙)
-9. [Competition의 Data](#competition의-data)
 10. [Competition에 사용된 최신 기술](#competition에-사용된-최신-기술)
 11. [Kaggle의 Dataset과 API](#kaggle의-dataset과-api)
 <br>
@@ -557,7 +558,7 @@
 
 <br>
 
-## Competitions 진행 흐름
+## Competitions의 진행 흐름
 - 여기서 나오는 종류나 순서는 `캐글 가이드` 저자 사카모토 도시유키님의 개인 생각입니다.
 
 ### 범용 알고리즘을 구현한 `Baseline`
@@ -587,7 +588,7 @@
 ### 지금까지 나온 `Notebook` 등장 순서 정리와 결론
 ![Untitled Diagram](https://user-images.githubusercontent.com/61633137/103762670-0cfc3280-505c-11eb-89c9-a79645e1dedb.png)
 - 위와 같은 순서로 `Competition`이 진행된다고 했을 때 무작정 우승자의 `Notebook`을 보는 것보단 그 과정을 이해할 수 있도록 다양한 `Notebook`을 공부해보는 것이 좋을 것이라 생각이됩니다.
-- 또한 `Competition`은 기본적으로 경쟁을 하는 것이므로 공개된 `Notebook`들은 `Kaggler`들이 알아도 본인에게 큰 타격이 없다는 뜻입니다.<br>
+- 또한 `Competition`은 기본적으로 경쟁을 하는 것이므로 공개된 `Notebook`들은 다른 `Kaggler`들이 알아도 본인에게 큰 타격이 없다는 뜻입니다.<br>
   실제로 입상한 분들의 `Notebook`을 보면 당시 최신 기술을 사용하거나 공개했던 `Notebook`과는 다른 솔루션을 사용한 경우도 종종 보입니다.
 <br>
 
@@ -595,4 +596,20 @@
 
 <br>
 
+## Competitions의 규칙
+- `Kaggle`의 `Competitions`는 간혹 별도의 규칙이 있는 경우가 있습니다. 그 이유는 `Competitions`의 주최가 보통 특정 회사로부터 이루어지기 때문인데요, 그 회사가 원하는 결과를 얻기 위해 특별한 규칙이 생기곤 합니다. 
+<br>
+
+### 어떤 `규칙`들을 봐야하나요?
+- 1. `Rules` : `Competition`에서 입상하기 위해선 우선 그 `Competition`의 규칙을 잘 알고 있어야 합니다. 각 `Competition`의 `Rules` 메뉴를 확인하면 됩니다.<br>
+- 2. `Evaluation` : `Overview`의 `Evaluation` 페이지에서 `평가 함수`를 살펴보고 어떤 평가 방식이 적용되는지를 확인해야 합니다. 보통 통계학 기반의 함수가 사용됩니다.<br>
+- 3. `1인 점수 확인 횟수` : 데이터를 하나씩 변경하면서 결과 파일을 자주 제출하여 점수를 자주 확인할 수 있다면 의미있는 성과를 거두지 못하겠죠, 그래서 보통 점수 확인 횟수에 제한이 있습니다.<br>
+- 4. `Notebook Only Competition` : `Kaggle Notebook`만 사용해서 결과를 제출해야 합니다.<br> 
+  `Kaggle Notebook`만 사용하게 될 경우 `Kaggler`들이 `Notebook`을 공개할 확률이 높아지며 모든 참가자는 공개된 `Notebook`을 볼 수 있으므로 좋은 아이디어를 쉽게 발견할 수 있습니다.<br>
+  또한 모든 참가자의 컴퓨터 연산 자원이 같아지기 때문에 개인 워크스테이션을 쓰는 사람과 그렇지 않은 사람 사이의 불평등을 해소할 수 있습니다.  
+<br>
+
+***
+
+<br>
 
