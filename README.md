@@ -20,12 +20,16 @@
     - [Competition외에 서비스나 특징들](#competition외에-서비스나-특징들)
     - [Kaggling을 위해 필요한 지식](#kaggling을-위해-필요한-지식)
     - [Kaggler가 되기 전에 준비해야 할 것](#kaggler가-되기-전에-준비해야-할-것)
+<br>
+
 2. [Kaggle은 어떻게 활용되나요?](#kaggle은-어떻게-활용되나요)
     - [데이터 분석을 위한 인프라로 활용하기](#데이터-분석을-위한-인프라로-활용하기)
     - [Notebook 활용하기](#notebook-활용하기)
     - [Dataset 활용하기](#dataset-활용하기)
     - [회사 연수에 활용하기](#회사-연수에-활용하기)
     - [Discussion 활용하기](#discussion-활용하기)
+<br>
+
 3. [Kaggle Competition?](#kaggle-competition)
     - [가장 일반적인 Competition인 Featured](#가장-일반적인-competition인-featured)
     - [연구목적의 Research](#연구목적의-research)
@@ -34,6 +38,8 @@
     - [취업 기회를 얻을 수 있는 Recruitment](#취업-기회를-얻을-수-있는-recruitment)
     - [정기적으로 열리는 Annual Competition](#정기적으로-열리는-annual-competition)
     - [분석한 결과를 효과적으로 설명해야하는 Analytics](#분석한-결과를-효과적으로-설명해야하는-analytics)
+<br>
+
 4. [Kaggle 시작하기](#kaggle-시작하기)
     - [회원가입](#회원가입)
     - [Kaggle Courses 둘러보기](#kaggle-courses-둘러보기)
@@ -41,11 +47,15 @@
     - [메달](#메달)
     - [Kaggle Contributor 되기](#kaggle-contributor-되기)
     - [Kaggle Rankings](#잠깐)
+<br>
+
 5. [Notebook에 대하여](#notebook과-친해지기)
     - [Notebook 소개](#notebook에-대한-간단한-소개는-여기를-다시-읽어주세요)
     - [Notebook으로 할 수 있는 것은?](#notebook으로-할-수-있는-것은)
     - [Notebook 만들고 사용하기](#notebook-만들고-사용하기)
     - [Notebook의 다양한 설정](#notebook의-다양한-설정)
+<br>
+
 6. [Competitions with Notebooks](#competitions-with-notebooks)
     - [Competition Notebook에서 사용할 Data File 다루는 법](#competition-notebook에서-사용할-data-file-다루는-법)
 <br>
