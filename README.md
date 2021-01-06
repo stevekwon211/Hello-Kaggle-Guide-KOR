@@ -319,7 +319,7 @@
 <br>
 
 ## Notebook에 대하여
-### [Notebook에 대한 간단한 소개는 여기를 다시 읽어주세요!](`notebook`-활용하기)
+### [Notebook에 대한 간단한 소개는 여기를 다시 읽어주세요!](#notebook-활용하기)
 <br>
 
 ### `Notebook`으로 할 수 있는 것은?
