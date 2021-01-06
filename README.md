@@ -448,9 +448,20 @@
   - `Environment` : `Docker` 이미지를 설정할 수 있습니다. `Original`은 `Notebook`을 만들 때 직접 개발 환경을 설정하는 것이고 `Latest Available`은 `Kaggle`이 제공하는 최신 개발 환경을 사용하는 옵션입니다.
   - `Accelerator` : `GPU` 또는 `TPU`를 사용할지 설정할 수 있습니다.
   - `GPU/TPU Quota` : `GPU` 및 `TPU` 사용 시간와 사용량을 보여줍니다.
-  - `Internet` : 인터넷 연결 여부를 설정할 수 있습니다.
-   - `Internet`을 `On`으로 설정하면 특정 패키지를 설치할 수 있습니다. 또한 구글 계정을 이용해 `GCP (Google Cloud Platform)`의 `BigQuery`, `Cloud Storage`, `AutoML` 서비스를 사용할 수 있습니다.
+  - `Internet` : 인터넷 연결 여부를 설정할 수 있습니다.<br>
+    `Internet`을 `On`으로 설정하면 특정 패키지를 설치할 수 있습니다. 또한 구글 계정을 이용해 `GCP (Google Cloud Platform)`의 `BigQuery`, `Cloud Storage`, `AutoML` 서비스를 사용할 수 있습니다.
+<br>
 
+### Dataset 사용하는 법
+- `Kaggle Notebook`은 `Competition Data` 뿐만 아니라 공유되고 있는 다양한 `Dataset`을 이용할 수 있습니다.<br>
+  이런 경우에는 별도의 파일을 `Notebook`에서 사용할 수 있도록 설정해주어야 합니다.
+- 1. 새로운 `Notebook`을 만들어서 하는 방법
+    - 자신이 사용하길 원하는 `Dataset`에 가면 ![image](https://user-images.githubusercontent.com/61633137/103732584-086b5600-502b-11eb-9d12-06d4a77914b8.png) 이런 버튼을 볼 수 있는데 `New Notebook`을 누르면 파일이 자동으로 설정됩니다.<br>
+- 2. 기존의 `Notebook`에 추가하는 방법
+    - 현재 갖고있는 `Notebook`에 새로운 데이터를 추가하려면 우선 `Notebook`으로 접속합니다.<br>
+      그리고 오른쪽 상단에 있는 ![image](https://user-images.githubusercontent.com/61633137/103732714-4d8f8800-502b-11eb-8909-4825d3eabec4.png) `+ Add Data` 버튼을 클릭합니다.<br>
+      그러고나면 창이 하나 나타나는데 거기서 원하는 `Dataset`을 검색한 후 `Add`를 누르면 됩니다. 또한 `Upload` 버튼을 누르면 `local` 파일도 업로드할 수 있습니다.
+-
 
 
 <br>
