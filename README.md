@@ -59,9 +59,12 @@
     - [Notebook에서 Dataset 소스 코드 사용하기](#notebook에서-dataset-소스-코드-사용하기)
 <br>
 
-6. [Competitions과 Notebooks](#competitions과-notebooks)
+6. [Competitions와 Notebooks](#competitions와-notebooks)
+    - [Notebook은 데이터 분석 Competition말고 어디에 사용될 수 있나요?](#notebook은-데이터-분석-competition-말고-어디에-사용될-수-있나요)
     - [Competition Notebook에서 사용할 Data File 다루는 법](#competition-notebook에서-사용할-data-file-다루는-법)
 <br>
+
+7. [Competitions 진행 흐름](#competition-진행-흐름)
 
 #### 추가예정
 7. [Competitions 세부 사항](#competition-세부-사항)
@@ -508,8 +511,8 @@
 
 <br>
 
-## Competitions과 Notebooks
-### `Notebook`은 데이터 분석 `Competition` 말고 어디에 사용되나요?
+## Competitions와 Notebooks
+### `Notebook`은 데이터 분석 `Competition` 말고 어디에 사용될 수 있나요?
 - 일반적으로 입상이 목표라면 `Competition`이 종료된 후 `Notebook`을 공개하게 됩니다.<br>
   하지만 `Competition`이 진행되고 있을 때에도 `Kaggler`들과 토론을 할 수 있는 환경도 조성되어 있습니다.
 <br>
@@ -543,3 +546,18 @@
 - 이제 `Leaderboard` 메뉴로 화면이 옮겨지고 제출된 파일이 자동으로 채점이 됩니다.<br>
   채점이 끝나면 점수를 확인할 수 있고 `Jump to your position on the leaderboard`를 클릭해 자신의 순위를 확인할 수 있습니다.
 <br>
+
+***
+
+<br>
+
+## Competitions 진행 흐름
+### 범용 알고리즘을 구현한 `Baseline`
+- 먼저 데이터 분석을 시작하면 범용 알고리즘을 통해 출력 데이터를 얻습니다. 
+- 이후 본격적으로 머신러닝 모델을 개발하고 범용 알고리즘을 통해 얻은 출력 데이터와 결과를 비교합니다. 
+- 비교한 결과에서 범용 알고리즘보다 결과가 나쁘게 나왔다면 모델에 문제점이 있다고 추측할 수 있습니다.
+<br>
+
+### 데이터 분석 `Notebook`
+- `Competition`의 데이터를 분석하고 `시각화`를 해서 보여주는 `Notebook`을 뜻합니다.
+- 제출할 데이터를 만들지 않고 분석한 데이터 사이의 상관관계, 규칙, 구조 등을 파악하는데 집중합니다.
