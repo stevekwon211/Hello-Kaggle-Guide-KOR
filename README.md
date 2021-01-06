@@ -54,9 +54,12 @@
     - [Notebook으로 할 수 있는 것은?](#notebook으로-할-수-있는-것은)
     - [Notebook 만들고 사용하기](#notebook-만들고-사용하기)
     - [Notebook의 다양한 설정](#notebook의-다양한-설정)
+    - [Notebook에서 Data 불러오는 법](#notebook에서-data-불러오는-법)
+    - [Notebook에서 외부 패키지 사용하기](#notebook에서-외부-패키지-사용하기)
+    - [Notebook에서 Dataset 소스 코드 사용하기](#notebook에서-dataset-소스-코드-사용하기)
 <br>
 
-6. [Competitions with Notebooks](#competitions-with-notebooks)
+6. [Competitions과 Notebooks](#competitions과-notebooks)
     - [Competition Notebook에서 사용할 Data File 다루는 법](#competition-notebook에서-사용할-data-file-다루는-법)
 <br>
 
@@ -452,25 +455,65 @@
     `Internet`을 `On`으로 설정하면 특정 패키지를 설치할 수 있습니다. 또한 구글 계정을 이용해 `GCP (Google Cloud Platform)`의 `BigQuery`, `Cloud Storage`, `AutoML` 서비스를 사용할 수 있습니다.
 <br>
 
-### Dataset 사용하는 법
+### `Notebook`에서 `Data` 불러오는 법
 - `Kaggle Notebook`은 `Competition Data` 뿐만 아니라 공유되고 있는 다양한 `Dataset`을 이용할 수 있습니다.<br>
   이런 경우에는 별도의 파일을 `Notebook`에서 사용할 수 있도록 설정해주어야 합니다.
+<br>
+
 - 1. 새로운 `Notebook`을 만들어서 하는 방법
     - 자신이 사용하길 원하는 `Dataset`에 가면 ![image](https://user-images.githubusercontent.com/61633137/103732584-086b5600-502b-11eb-9d12-06d4a77914b8.png) 이런 버튼을 볼 수 있는데 `New Notebook`을 누르면 파일이 자동으로 설정됩니다.<br>
+<br>
+
 - 2. 기존의 `Notebook`에 추가하는 방법
     - 현재 갖고있는 `Notebook`에 새로운 데이터를 추가하려면 우선 `Notebook`으로 접속합니다.<br>
       그리고 오른쪽 상단에 있는 ![image](https://user-images.githubusercontent.com/61633137/103732714-4d8f8800-502b-11eb-8909-4825d3eabec4.png) `+ Add Data` 버튼을 클릭합니다.<br>
-      그러고나면 창이 하나 나타나는데 거기서 원하는 `Dataset`을 검색한 후 `Add`를 누르면 됩니다. 또한 `Upload` 버튼을 누르면 `local` 파일도 업로드할 수 있습니다.
--
+      그러고나면 창이 하나 나타나는데 거기서 원하는 `Dataset`을 검색한 후 `Add`를 누르면 됩니다. 
+<br>
 
+- 3. 직접 업로드하는 방법
+    - `Data` 메뉴에 들어가서 오른쪽 상단을 보면 ![image](https://user-images.githubusercontent.com/61633137/103733211-8b40e080-502c-11eb-8088-69e4bbf28e72.png) `+ New Data` 버튼이 있는데 이것을 클릭합니다.<br>
+      그리고 `Enter Dataset Title`에 이름을 입력한 뒤 `Select Files to Upload`를 눌러서 파일을 업로드합니다. (zip이나 tar.gz같은 압축 파일 형식도 가능합니다.)<br>
+      마지막으로 `Create`을 눌러서 `Dataset`을 업로드합니다. 이렇게 업로드한 `Dataset`을 i이나 ii의 방식으로 불러와서 사용하면 됩니다.
+<br>
 
+- 4. 다른 `Notebook`의 출력 데이터를 사용하는 방법
+    - ii의 방법을 따라하면 창이 하나 나타나는데 거기서 `Kernel Ouput Files` 탭을 클릭하면 다른 `Notebook`의 출력 데이터를 사용할 수 있습니다.
+<br>
+
+### `Notebook`에서 외부 패키지 사용하기
+- `pip`로 설치할 수 있는 외부 패키지는 `Notebook`의 하단에 있는 `Console`을 클릭해서 `pip install package_name`과 같이 설치할 수 있습니다.<br>
+   ![image](https://user-images.githubusercontent.com/61633137/103733887-153d7900-502e-11eb-9660-12bf25592e96.png)
+<br>
+
+- 또한 다음 두 가지 예시처럼 코드 셀에서 직접 `pip`를 사용할 수도 있습니다.
+  ```python
+  !pip install package_name
+  ```
+  ```python
+  import os
+  os.system('pip install package_name')
+  ```
+<br>
+
+### `Notebook`에서 `Dataset` 소스 코드 사용하기
+- 만약 `hello_kaggle` 이라는 패키지를 포함한 `example dataset`을 `Notebook`에 추가하면 ../input/example-dataset/hello_kaggle 디렉터리를 추가하면됩니다.<br>
+  추가하는 코드는 다음과 같습니다.
+  ```python
+  import sys
+  sys.path.append("../input/example-dataset/hello_kaggle")
+  ```
 <br>
 
 ***
 
 <br>
 
-## Competitions with Notebooks
+## Competitions과 Notebooks
+### `Notebook`은 데이터 분석 `Competition` 말고 어디에 사용되나요?
+- 일반적으로 입상이 목표라면 `Competition`이 종료된 후 `Notebook`을 공개하게 됩니다.<br>
+  하지만 `Competition`이 진행되고 있을 때에도 `Kaggler`들과 토론을 할 수 있는 환경도 조성되어 있습니다.
+<br>
+
 ### `Competition Notebook`에서 사용할 `Data File` 다루는 법
 - `Competition`을 진행할 때 `Notebook`의 오른쪽 상단을 보면 `Data` 탭이 있습니다. 눌러보면 3가지의 파일이 있을 것인데 각 파일에 대한 설명은 다음과 같습니다.
   - `train.csv` : 정답 레이블이 있는 학습용 데이터입니다.
