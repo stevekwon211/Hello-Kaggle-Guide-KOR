@@ -450,13 +450,13 @@
   ![image](https://user-images.githubusercontent.com/61633137/103717489-f4166180-5008-11eb-88b8-85936bb31044.png)
 <br>
 
-- 셀에서 볼 수 있는 버튼들의 각 기능들입니다.
-  -![image](https://user-images.githubusercontent.com/61633137/103721394-e369e980-5010-11eb-8df6-a5f77b67caf3.png) : 셀 위치를 한 칸 앞으로 올립니다.<br>
-  -![image](https://user-images.githubusercontent.com/61633137/103721428-f7155000-5010-11eb-86f7-3a0e8ccff5af.png) : 셀 위치를 한 칸 아래로 내립니다.<br>
-  -![image](https://user-images.githubusercontent.com/61633137/103721456-085e5c80-5011-11eb-9768-24161e8b6f4e.png) : 해당 셀을 삭제합니다.<br>
-  -![image](https://user-images.githubusercontent.com/61633137/103721476-17450f00-5011-11eb-92ba-84e80c437c8d.png)/![image](https://user-images.githubusercontent.com/61633137/103721509-2deb6600-5011-11eb-88ed-979cd05bbb7b.png) : 해당 셀을 숨기거나 나타냅니다.<br>
-  -![image](https://user-images.githubusercontent.com/61633137/103721551-48254400-5011-11eb-98ef-66aaa3e6a3c8.png) : 다음과 같은 부가 기능을 제공합니다.<br>
-   ![image](https://user-images.githubusercontent.com/61633137/103721556-49ef0780-5011-11eb-8abb-45061ffa7de0.png)
+- 셀에서 볼 수 있는 버튼들의 각 기능들입니다.<br>
+  - ![image](https://user-images.githubusercontent.com/61633137/103721394-e369e980-5010-11eb-8df6-a5f77b67caf3.png) : 셀 위치를 한 칸 앞으로 올립니다.<br>
+  - ![image](https://user-images.githubusercontent.com/61633137/103721428-f7155000-5010-11eb-86f7-3a0e8ccff5af.png) : 셀 위치를 한 칸 아래로 내립니다.<br>
+  - ![image](https://user-images.githubusercontent.com/61633137/103721456-085e5c80-5011-11eb-9768-24161e8b6f4e.png) : 해당 셀을 삭제합니다.<br>
+  - ![image](https://user-images.githubusercontent.com/61633137/103721476-17450f00-5011-11eb-92ba-84e80c437c8d.png)/![image](https://user-images.githubusercontent.com/61633137/103721509-2deb6600-5011-11eb-88ed-979cd05bbb7b.png) : 해당 셀을 숨기거나 나타냅니다.<br>
+  - ![image](https://user-images.githubusercontent.com/61633137/103721551-48254400-5011-11eb-98ef-66aaa3e6a3c8.png) : 다음과 같은 부가 기능을 제공합니다.<br>
+    ![image](https://user-images.githubusercontent.com/61633137/103721556-49ef0780-5011-11eb-8abb-45061ffa7de0.png)
 <br>
 
 ### `Notebook`의 다양한 설정 
