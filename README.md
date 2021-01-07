@@ -553,7 +553,7 @@
 - 위 파일들을 이용해서 모델을 작성 및 제출할 csv 파일을 생성했다고 가정하고 제출하는 방법을 다루어보겠습니다.<br> 
   ([4-competition에-참가하기](#4-competition에-참가하기-make-1-competition-or-task-submission)에서도 같은 내용이 설명되어 있습니다.)
   - `Notebook` 화면의 오른쪽 상단에 있는 `Save Version`을 클릭합니다. (만약 코드를 실행하지 않은 상태라면 `Save & Run All (Commit)`을 클릭하면 됩니다.
-  - `Save & Run All (Commit)`에서 `Commit`은 현재 제가 문서를 작성하고 있는 `Github`의 `Git`과 같은 의미입니다.<br>
+  - `Save & Run All (Commit)`에서 `Commit`은 현재 제가 문서를 작성하고 있는 `Github`의 `Git Commit`과 같은 의미입니다.<br>
     그래서 `Kaggle Notebook`은 이전에 작성했던 소스 코드의 버전을 참조할 수 있습니다.
     
 - 이제 프로필로 돌아가서 `Notebooks`를 클릭하면 방금 저장한 Notebook을 확인할 수 있습니다.<br>
