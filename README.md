@@ -1,6 +1,11 @@
 # Hello Kaggle!:wave:
 
 `Kaggle의 공식 문서`와 `캐글 가이드`라는 책을 읽고 `Kaggle`의 정의나 기본적인 사용법들에 대하여 정리해보았습니다.<br>
+
+`캐글 가이드`는 `동양북스`라는 출판사에서 나온 책입니다. 책에 대해 궁금하신 분을 위해 링크도 첨부해두겠습니다.<br>
+- [캐글 가이드: 전 세계 데이터 과학자와 소통하고, 경쟁하고, 성장하기 - 동양북스](https://www.dongyangbooks.com/book/book_view.asp?menu_1=general&menu_2=general%5Fit&goods_code=2656) (동양북스 공식 홈페이지 - 캐글 가이드)
+- [kaggle-guide by dybooksIT](https://github.com/dybooksIT/kaggle-guide) (동양북스의 공식 깃허브 - 캐글 가이드)
+
 저처럼 이제 막 `Kaggle`을 접하는 분들에게 도움이 되었으면 합니다.<br>
 수정해야할 부분이 있으면 `Issues`에 남겨주시면 감사하겠습니다.<br>
 
